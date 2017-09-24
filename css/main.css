@@ -1,0 +1,65 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 3em;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    top: 6em;
+    left: 6em;
+}
+
+.protrait {
+  width: 50%;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  left: 19em;
+}
+
+@media only screen and (min-width: 90em) {
+  .banner {
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    top: 6em;
+    left: 8em;
+}

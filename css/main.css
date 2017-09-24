@@ -24,6 +24,14 @@ h1{
   line-height: 4rem;
 }
 
+.protrait {
+  width: 100%;
+  position: absolute;
+  text-align: left;
+  top: 12em;
+  left: 1em;
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -38,7 +46,7 @@ h1{
     display: inline-block;
     text-align: left;
     top: 6em;
-    left: 6em;
+    left: 13em;
 }
 
 .protrait {
@@ -46,7 +54,7 @@ h1{
   position: absolute;
   text-align: left;
   top: 0;
-  left: 19em;
+  left: 22em;
 }
 
 @media only screen and (min-width: 90em) {
@@ -61,5 +69,5 @@ h1{
     display: inline-block;
     text-align: left;
     top: 6em;
-    left: 8em;
+    left: 11em;
 }

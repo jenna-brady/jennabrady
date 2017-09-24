@@ -33,29 +33,7 @@ h1{
 }
 
 
-@media only screen and (min-width: 38em) {
 
-  .banner {
-    position: relative;
-    width: 100%;
-  }
-
-  .content {
-    width: 100%;
-    position: absolute;
-    display: inline-block;
-    text-align: left;
-    top: 6em;
-    left: 13em;
-}
-
-.protrait {
-  width: 50%;
-  position: absolute;
-  text-align: left;
-  top: 0;
-  left: 22em;
-}
 
 @media only screen and (min-width: 90em) {
   .banner {
@@ -70,4 +48,13 @@ h1{
     text-align: left;
     top: 6em;
     left: 11em;
+}
+
+.protrait {
+  width: 50%;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  left: 22em;
+}
 }

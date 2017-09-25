@@ -42,11 +42,15 @@ h1{
   }
 
   .protrait {
-    width: 40%;
+    width: 100%;
     position: absolute;
     top: 16em;
     left: 15em;
     text-align: center;
+  }
+
+  .self-portrait{
+    width: 40%;
   }
 }
 

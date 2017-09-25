@@ -21,17 +21,33 @@ h1 {
 }
 
 h1{
-  font-size: 3.5rem;
-  line-height: 4rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .protrait {
   width: 100%;
   position: absolute;
-  text-align: left;
-  top: 19em;
+  top: 20em;
   left: 0em;
   text-align: center;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .protrait {
+    width: 40%;
+    position: absolute;
+    top: 16em;
+    left: 15em;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -50,10 +66,9 @@ h1{
 }
 
   .protrait {
-    width: 50%;
+    width: 35%;
     position: absolute;
-    text-align: left;
     top: 0;
-    left: 22em;
+    left: 27em;
 }
 }

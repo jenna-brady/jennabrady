@@ -29,7 +29,8 @@ h1{
   position: absolute;
   text-align: left;
   top: 12em;
-  left: 1em;
+  left: 2em;
+  text-align: center;
 }
 
 
@@ -50,11 +51,11 @@ h1{
     left: 11em;
 }
 
-.protrait {
-  width: 50%;
-  position: absolute;
-  text-align: left;
-  top: 0;
-  left: 22em;
+  .protrait {
+    width: 50%;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 22em;
 }
 }

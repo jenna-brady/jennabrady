@@ -28,7 +28,7 @@ h1{
 .protrait {
   width: 100%;
   position: absolute;
-  top: 19em;
+  top: 15em;
   left: 0em;
   text-align: center;
   display: inline-block;
@@ -44,14 +44,19 @@ h1{
   .protrait {
     width: 100%;
     position: absolute;
-    top: 16em;
-    left: 15em;
+    top: 3em;
+    left: 25em;
     text-align: center;
   }
 
   .self-portrait{
     width: 40%;
   }
+
+  .content {
+    text-align: left;
+    left: 11em;
+    top: 7em;
 }
 
 @media only screen and (min-width: 90em) {

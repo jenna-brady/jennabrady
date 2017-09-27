@@ -29,6 +29,15 @@ h1{
   display: inline-block;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ffc5b5;
+}
+
 @media only screen and (min-width: 38em) {
 
   h1{
